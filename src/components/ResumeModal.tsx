@@ -16,7 +16,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
       subtitle: 'DATA ANALYST',
       filename: 'Vivek_Bhosale_Resume_DA.pdf',
       githubUrl: 'https://github.com/Vivek061/Potfolio-Website-/blob/main/Vivek_Bhosale_Resume_DA.pdf',
-      rawUrl: './Vivek_Bhosale_Resume_DA.pdf',
+      rawUrl: `${import.meta.env.BASE_URL}Vivek_Bhosale_Resume_DA.pdf`,
       summary:
         'Data Analyst fresher skilled in SQL, Python (Pandas), Excel and Power BI. Completed a 6-month Data Science Consultant internship at Rubixe, cleaning and analyzing 200,000+ records and building KPI dashboards and reports for client stakeholders. Turns raw business data into clear, actionable insights. Certified Data Scientist (DataMites; NASSCOM FutureSkills Prime, Gold)',
       skills: [
@@ -53,7 +53,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
       subtitle: 'DATA SCIENTIST',
       filename: 'Vivek_Bhosale_Resume_DS.pdf',
       githubUrl: 'https://github.com/Vivek061/Potfolio-Website-/blob/main/Vivek_Bhosale_Resume_DS.pdf',
-      rawUrl: './Vivek_Bhosale_Resume_DS.pdf',
+      rawUrl: `${import.meta.env.BASE_URL}Vivek_Bhosale_Resume_DS.pdf`,
       summary:
         'Methodical and mathematically-grounded Data Science Professional with a Bachelor of Computer Applications (8.7 CGPA) and consulting experience developing 4+ end-to-end analytics proof-of-concepts (PoCs). Proficient in supervised machine learning regression and classification using Scikit-Learn, complex feature engineering, residual diagnostics, exploratory statistical modeling, and full-stack model deployment with Streamlit.',
       skills: [
