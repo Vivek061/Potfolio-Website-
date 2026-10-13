@@ -49,7 +49,7 @@ export const About: React.FC = () => {
           {/* Left Column: Narrative */}
           <div className="lg:col-span-7 space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
             <p>
-              I am a results-oriented <strong className="text-white font-semibold">Data Analyst Fresher</strong> with a solid foundation in computer applications from <strong className="text-slate-100">KCE M.J. College, Jalgaon</strong> (graduated April 2025 with an <span className="text-cyan-400 font-semibold">8.7 / 10 CGPA</span>).
+              I am a results-oriented <strong className="text-white font-semibold">Data Analyst &amp; Data Science Fresher</strong> with a solid foundation in computer applications from <strong className="text-slate-100">KCE M.J. College, Jalgaon</strong> (graduated April 2025 with an <span className="text-cyan-400 font-semibold">8.7 / 10 CGPA</span>).
             </p>
 
             <p>
